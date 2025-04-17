@@ -30,3 +30,7 @@ void inpput() {
 
 // create function mergeSort
 void mergeSort(int low, int high) {
+    //step 1
+    if (low >= high ) {
+        return; //step1.a
+    }
