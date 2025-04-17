@@ -34,3 +34,5 @@ void mergeSort(int low, int high) {
     if (low >= high ) {
         return; //step1.a
     }
+
+    int mid = (low + high) /2; //step2
